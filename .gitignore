@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Build and output directories
+.next/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+#.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# PostgreSQL data volume (you don't want to push data from your database)
+docker-data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
